@@ -65,6 +65,6 @@ Authorization: Bearer <token>
 
 Donde  `token` es el retornado en el endpoint de login.
 
-En caso de token invalido deve retornar 401 y mensaje de error apropiado.
+En caso de token inválido deve retornar 401 y mensaje de error apropiado.
 
 En caso de exito retorna `email`, `id`, `telephones`, `created_at`, `modified_at`
