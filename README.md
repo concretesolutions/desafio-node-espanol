@@ -48,9 +48,9 @@ En caso de error retornar status code y mensaje de error correspondiente.
 
 # Login de usuarios (Sign in)
 
-Este endpoint deve recibir un objeto con email y password
+Este endpoint deve recibir un objeto con `email` y `password`
 
-En caso que el email exista y el password sea igual al persistido, retorna un token JWT el cual deve incluir en el payload : email, id.
+En caso que el email exista y el password sea igual al persistido, retorna un token JWT el cual deve incluir en el payload : `email`, `id`.
 
 En caso de login inválido deve retornar 401 y mensaje de error apropiado.
 
@@ -67,5 +67,4 @@ Donde  `token` es el retornado en el endpoint de login.
 
 En caso de token invalido deve retornar 401 y mensaje de error apropiado.
 
-En caso de exito retorna email, id, telephones, created_at, modified_at
-
+En caso de exito retorna `email`, `id`, `telephones`, `created_at`, `modified_at`
